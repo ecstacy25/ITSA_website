@@ -1,0 +1,71 @@
+.why-choose-us {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(242, 242, 242, 1);
+    
+  }
+  
+  .why-choose-us h3 {
+    color: #0073e6;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .why-choose-us h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .reasons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .reason-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .icon.pink {
+    background-color: #f8d7ff;
+    color: #d63384;
+  }
+  
+  .icon.green {
+    background-color: #e3ffe5;
+    color: #28a745;
+  }
+  
+  .icon.yellow {
+    background-color: #fff4d7;
+    color: #ffc107;
+  }
+  
+  .reason-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .reason-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

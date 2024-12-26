@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+.who-we-are-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(42, 102, 176, 0.05));
+    margin-left: 0px;
+    
+   
+  }
+  
+  .text-sections {
+    flex: 1;
+    margin-left: 100px;
+  }
+  
+  .text-sections h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text-sections p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .learn-more-button {
+    padding: 10px 20px;
+    background-color: #0056d6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #003c9e;
+  }
+  
+  .image-sections {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .image-grid-item {
+    width: 165%; /* Increased width */
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .stacked-images {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* Ensure images touch each other */
+  }
+  
+  .stacked-images img {
+    width: 125%;
+    height: auto;
+    border-radius: 5px; 
+    object-fit: cover;
+    margin-left: 79px;
+  }
+  
+  .stacked-images img:first-child {
+    height: 25%; 
+  }
+  
+  .image-grid-item.special-width {
+    width: 380%;
+  }

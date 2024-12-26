@@ -1,0 +1,17 @@
+.about-us-container {
+    background: url("../../assets/About.png") no-repeat center center;
+    background-size: cover;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-us-container h1 {
+    color: white;
+    font-size: 3rem; 
+    font-weight: bold;
+    
+  }
+  

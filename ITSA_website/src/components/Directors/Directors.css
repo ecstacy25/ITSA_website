@@ -1,0 +1,118 @@
+.board-of-directors {
+  text-align: center;
+  
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.board-of-directors h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.board-of-directors p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.directors-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: 2rem;
+  grid-auto-flow: column;
+  width: 70%;
+  margin-left: 130px;
+}
+
+.director-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.director-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.director-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.director-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  color: #222;
+}
+
+.director-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.read-bio-button {
+  background: rgba(244, 245, 249, 1);
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.read-bio-button:hover {
+  background: #e0e0e0;
+}
+
+/* Explicit grid area assignment for 3-2-2 layout */
+.directors-grid > :nth-child(1),
+.directors-grid > :nth-child(4) {
+  
+  width: 68%;
+  grid-column: span 1;
+}
+
+.directors-grid > :nth-child(7) {
+  width: 150%;
+  margin-left: 5px;
+}
+
+.directors-grid > :nth-child(2),
+.directors-grid > :nth-child(5) {
+  margin-left: 200px;
+  width: 68%;
+  grid-column: span 1;
+}
+
+.directors-grid > :nth-child(3),
+.directors-grid > :nth-child(6) {
+  margin-left: 200px;
+  width: 68%;
+  grid-column: span 1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .directors-grid {
+    grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .directors-grid {
+    grid-template-columns: 1fr; /* Adjust to 1 column for very small screens */
+  }
+}

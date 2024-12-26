@@ -1,0 +1,117 @@
+.what-drives-us {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 1);
+
+  width: 92%;
+}
+
+.top-section {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+
+  margin-left: 80px;
+}
+
+.team-image {
+  width: 42%;
+  border-radius: 8px;
+}
+
+.text-content {
+  flex: 1;
+  background-color: rgba(241, 240, 246, 1);
+  border-radius: 8px;
+  padding: 1.5rem;
+
+  text-align: center;
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.text-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.cta-button {
+  background-color: #2155cd;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #183fa7;
+}
+
+.values-section {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-left: 80px;
+}
+
+.value-card {
+  flex: 1;
+  background: linear-gradient(135deg, #2155cd, #183fa7);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.value-card .icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.value-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.value-card .t {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffff;
+}
+
+.stats-section {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-left: 80px;
+}
+
+.stat {
+  flex: 1;
+  text-align: center;
+  background-color: rgba(241, 240, 246, 1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2155cd;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #555;
+}

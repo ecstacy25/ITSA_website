@@ -1,0 +1,63 @@
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 1);
+    color: #fff;
+  }
+  
+  .texts {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 2rem;
+    margin-left: 90px;
+  }
+  
+  .texts h3 {
+    color: #2155cd; 
+    font-size: 1.5rem;
+    margin-bottom: rem;
+  }
+  
+  .texts h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .texts p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    background-color: #2155cd;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #1a3fa7;
+  }
+  
+  .images {
+    flex: 1;
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  .images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

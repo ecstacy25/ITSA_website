@@ -1,0 +1,21 @@
+.services-section {
+    background-color: rgba(42, 102, 176, 1); 
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .services-section h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .services-section p {
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
