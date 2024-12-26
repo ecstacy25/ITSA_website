@@ -32,7 +32,7 @@ const Section = ({ children, direction }) => {
       initial={{
         opacity: 0,
         y: direction === "top" ? -100 : direction === "bottom" ? 100 : 0,
-        x: direction === "left" ? -100 : direction === "right" ? 100 : 0,
+        x: direction === "left" ? 0 : direction === "right" ? 0 : 0,
       }}
       animate={isInView ? { opacity: 1, x: 0, y: 0 } : {}}
       transition={{ duration: 5.5 }}
