@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
-body {
+/* body {
     margin: 0;
     font-family: 'Nunito', 'Montserrat';
     background: linear-gradient(to right, rgba(242, 245, 248, 1), rgba(255, 255, 255, 1));
     height: 40%;
-  }
+  } */
   
   .container {
     display: flex;

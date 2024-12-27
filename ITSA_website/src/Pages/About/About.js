@@ -46,7 +46,7 @@ const Section = ({ children, direction }) => {
 
 const About = () => {
   return (
-    <div>
+    <div className="About">
       {components.map((item, index) => (
         <Section key={index} direction={item.direction}>
           {item.component}

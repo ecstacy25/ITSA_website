@@ -3,15 +3,16 @@
 body {
     margin: 0;
     font-family: 'Nunito', 'Montserrat';
-  
-  
+    width: 100%;
+    
+  }
+
   .testimonials-container {
     text-align: center;
     padding: 40px 20px;
     background-color: #ffffff;
     background-image: url(../../assets/bg.png);
 }
-  }
   
   .section-title {
     color: #0056e0;
