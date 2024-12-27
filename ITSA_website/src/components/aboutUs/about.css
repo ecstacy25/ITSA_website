@@ -28,3 +28,23 @@ body {
   max-width: 100px;
   object-fit: contain;
 }
+
+@media (max-width: 768px) {
+  
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .partners-section {
+    width: 30%;
+    margin-left: 330px;
+  }
+
+  .logos-container {
+    display: grid;
+  grid-template-rows: repeat(2, 1fr);
+   
+  }
+
+ 
+}

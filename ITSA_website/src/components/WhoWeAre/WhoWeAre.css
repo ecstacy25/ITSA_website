@@ -83,3 +83,21 @@
   .image-grid-item.special-width {
     width: 380%;
   }
+
+  @media (max-width: 480px) {
+   .who-we-are-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   }
+
+   .text-sections {
+    margin-left: 200px;
+    width: 45%;
+   }
+
+   .image-grid {
+    width: 40%;
+    margin-left: -400px;
+   }
+  }

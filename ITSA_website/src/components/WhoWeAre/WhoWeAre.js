@@ -22,8 +22,7 @@ const WhoWeAre = () => {
         <button className="learn-more-button">Learn More</button>
       </div>
       <div className="image-sections">
-        <div className="image-grid">
-        <div className="image-grid">
+        <div className="image-grid"> 
   <img
     src={who1}
     alt="Image 1"
@@ -45,7 +44,7 @@ const WhoWeAre = () => {
   className="image-grid-item special-width"
 />
 
-</div>
+
 
         </div>
       </div>

@@ -128,12 +128,12 @@
 /* Hamburger Menu Icon */
 .nav-icon {
   display: none;
-  color: #000;
+  
   
 }
 
 /* Mobile View */
-@media screen and (max-width: 500px) {
+@media (max-width: 480px) {
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -163,7 +163,7 @@
   .nav-links {
     padding: 1.5rem;
     display: block;
-    
+    color: yellow;
   }
 
   .nav-icon {

@@ -97,3 +97,18 @@ body {
     margin-top: 50px !important; /* Only apply to the second card */
   }
   
+
+  @media (max-width: 480px) {
+.service-grid {
+  grid-template-columns: 1fr;
+  width: 47%;
+}
+  }
+
+
+  @media (max-width: 768px) {
+    .service-grid {
+      grid-template-columns: 1fr;
+      width: 52%;
+    }
+  }
