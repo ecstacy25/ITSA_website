@@ -57,7 +57,7 @@
 
 @media (max-width: 1024px) {
   .hero-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     padding: 2rem 4rem;
   }
