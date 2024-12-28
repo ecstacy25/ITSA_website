@@ -58,7 +58,7 @@ const services = [
   },
 ];
 
-const App = () => {
+const Cores = () => {
   return (
     <div className="app">
       <div className="head">
@@ -66,7 +66,7 @@ const App = () => {
         <p>We offer a great number of IT services</p>
       </div>
       
-      <div className="service-grid">
+      <div className="servicez">
         {services.map((service, index) => (
           <div
             key={index}
@@ -78,7 +78,7 @@ const App = () => {
             </div>
             <h3>{service.title}</h3>
             <p>{service.description}</p>
-            <a href="#">{service.link} &#10148;</a>
+            <a className="ted" href="#">{service.link} &#10148;</a>
           </div>
         ))}
       </div>
@@ -86,4 +86,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Cores;

@@ -75,4 +75,22 @@
       grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
   }
+
+  @media (max-width: 480px) {
+    .trusted-by {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+      width: 90%;
+    }
+
+    .trusted-by-header p {
+      width: 60%;
+    }
+
+    .companies-grid {
+      margin-left: 90px;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  }
   

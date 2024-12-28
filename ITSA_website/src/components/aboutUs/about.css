@@ -36,8 +36,8 @@ body {
 /* Mobile view */
 @media (max-width: 480px) {
   .partners-section {
-    width: 30%;
-    margin-left: 330px;
+    width: 59%;
+    margin-left: 80px;
   }
 
   .logos-container {

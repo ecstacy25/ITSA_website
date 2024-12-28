@@ -122,3 +122,43 @@ small a:hover {
 .footer-center {
   margin-left: 100px;
 }
+
+
+@media (max-width: 480px) {
+  .footer {
+  width: 53%;
+  margin-left: 63px;
+  }
+
+  .footer-center {
+    margin-left: 0px;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+  }
+
+  .logo img {
+    width: 100px;
+    margin-left: -70px;
+  }
+
+  .footer-center ul li {
+    margin: 5px 0;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+
+  small {
+    font-size: 10px;
+  }
+
+  .subscribe input,
+  .subscribe button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

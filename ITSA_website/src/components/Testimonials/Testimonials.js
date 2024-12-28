@@ -33,7 +33,7 @@ const Testimonials = () => {
     <div className="testimonials-container">
       <h4 className="section-title">Testimonials</h4>
       <h1 className="main-title">Our Customer Reviews</h1>
-      <div className="reviews-grid">
+      <div className="reviews">
         {reviews.map((review, index) => (
           <div className="review-card" key={index}>
             <div className="stars"><img src={require("../../assets/stars.png")} alt="star" className="star-icon" /></div>

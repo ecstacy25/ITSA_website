@@ -19,6 +19,16 @@
     height: 20%;
     margin-bottom: 0;
   }
+
+@media (max-width: 480px) {
+  .steps {
+    width: 680%;
+    object-fit: cover;
+    transform: scaleY(0.7);
+    margin-left: 80px;
+    margin-bottom: 0;
+  }
+}
   
 /*  
   .steps-section {

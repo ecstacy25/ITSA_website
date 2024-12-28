@@ -14,13 +14,18 @@ const App = () => {
         
         <div className="itservices">
         <div className="image-container">
-        <h1>
+          <div>
+          <h1>
           IT Service Desk Africa is transforming businesses with Innovation Efficiency & Security.
         </h1>
+          </div>
+        <div>
         <img
           src={laptop}
           alt="Person working on a laptop"
         />
+        </div>
+       
       </div>
         <div className="features">
           <div className="feature">

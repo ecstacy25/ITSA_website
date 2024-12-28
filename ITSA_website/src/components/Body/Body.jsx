@@ -149,7 +149,7 @@ import main from "../../assets/Framez.png"
 const Main = () => {
   return (
     <div className="hero-container">
-      <div className="hero-text">
+      <div className="hero1-text">
         <p> DISCOVER THE POWER OF INNOVATIVE IT SOLUTION</p>
         <h1>Expert IT Services for Smarter Business Growth</h1>
         <button className="hero-button">Get started today</button>
