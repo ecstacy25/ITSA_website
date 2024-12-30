@@ -46,7 +46,7 @@ const BlogSection = () => {
         <h2>Blog & Latest news</h2>
         <p>Stay informed with our informative blog posts and industry updates.</p>
       </div>
-      <div className="containers">
+      <div className="containerz">
         <div className="blogs">
           {blogs.map((blog) => (
             <div className="blog-card" key={blog.id}>

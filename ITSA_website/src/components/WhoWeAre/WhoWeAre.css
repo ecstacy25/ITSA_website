@@ -89,11 +89,12 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 100%;
    }
 
    .text-sections {
     margin-left: 100px;
-    width: 50%;
+    width: 57%;
    }
 
    .text-sections h1{

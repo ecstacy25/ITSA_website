@@ -7,7 +7,7 @@
     background: linear-gradient(to right, rgba(251, 251, 251, 1), rgba(229, 229, 229, 0));
   }
   
-  .containers {
+  .containerz {
     max-width: 1100px;
     margin: 0 auto;
    
@@ -120,10 +120,15 @@
   
 
   @media (max-width: 480px) {
+    .containerz {
+      width: 100%;
+    }
+    
+    
     .blog-section {
       padding: 30px 10px;
       width: 60%;
-      margin-left: 92px;
+      margin-left: 96px;
     }
   
     .blog-header h2 {

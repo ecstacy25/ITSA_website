@@ -5,7 +5,7 @@ import Logo from '../../assets/Itsalogo.png'
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <div className="foot">
       <div className="footer-container">
         <div className="footer-left">
           <div className="logo">
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

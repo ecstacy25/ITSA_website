@@ -60,7 +60,7 @@ const services = [
 
 const Cores = () => {
   return (
-    <div className="app">
+    <div className="apps">
       <div className="head">
         <h1>Our Core IT Services</h1>
         <p>We offer a great number of IT services</p>

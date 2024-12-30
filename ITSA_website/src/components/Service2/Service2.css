@@ -124,6 +124,7 @@
 @media (max-width: 480px) {
   .container {
     padding: 20px;
+    width: 100%;
   }
 
   .content h1 {

@@ -1,5 +1,28 @@
-@media (max-width: 480px) {
+.homes {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    width: 100%; /* Ensure full width of the viewport */
+    box-sizing: border-box; /* Include padding and border in element's width and height */
+  }
+  
+  .homes > div {
+    width: 100%; /* Ensure each section takes the full width */
+    padding: 0 15px; /* Add consistent spacing inside the sections */
+    box-sizing: border-box; /* Maintain the width calculation */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
     .homes {
-        width: 80%;
+     
+      
     }
-}
+  
+    .homes > div {
+        
+      
+    }
+  }
+  
+ 
+  

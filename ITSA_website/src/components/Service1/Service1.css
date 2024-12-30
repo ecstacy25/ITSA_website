@@ -7,7 +7,7 @@ body {
   /* height: 70%; */
 }
 
-.app {
+.apps {
   padding: 40px;
   height: 50%;
   text-align: center;
@@ -101,6 +101,10 @@ body {
     width: 47%;
     margin-left: 90px;
     gap: 0;
+  }
+
+  .apps {
+    width: 100%;
   }
 
   .service-card {

@@ -1,4 +1,4 @@
-.footer {
+.foot {
   background-color: #0d1224;
   color: white;
   padding: 0px 70px;
@@ -125,6 +125,14 @@ small a:hover {
 
 
 @media (max-width: 480px) {
+  .foot {
+    width: 60%; 
+  }
+
+  .footer-container {
+    padding-left: 35px;
+  }
+
   
 
   .logo img {

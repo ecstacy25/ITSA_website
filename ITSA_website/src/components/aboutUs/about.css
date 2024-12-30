@@ -36,8 +36,13 @@ body {
 /* Mobile view */
 @media (max-width: 480px) {
   .partners-section {
-    width: 59%;
-    margin-left: 80px;
+    width: 100%;
+   
+  }
+
+  .partners-section h2 {
+    width: 60%;
+    margin-left: 83px;
   }
 
   .logos-container {

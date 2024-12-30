@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
-body {
+/* body {
     margin: 0;
     font-family: 'Nunito', 'Montserrat';
     width: 100%;
     
-  }
+  } */
 
   .testimonials-container {
     text-align: center;
     padding: 40px 20px;
     background-color: #ffffff;
     background-image: url(../../assets/bg.png);
+   
 }
   
   .section-title {
@@ -92,6 +93,14 @@ body {
       flex-wrap: wrap;
     }
 
+    .testimonials-container {
+      width: 100%;
+     
+    }
+
+    .section-title{
+      margin-left: -60px;
+    }
     .review-card {
       width: 100%;
     }

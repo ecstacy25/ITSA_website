@@ -162,10 +162,15 @@
    
   }
 
+  .logo {
+    margin-left: 200px;
+  }
+
   .nav-links {
-    padding: 1.5rem;
+    padding: 1.2rem;
+   
     display: block;
-    color: yellow;
+    color: rgb(255, 255, 255);
   }
 
   .nav-icon {
@@ -176,6 +181,8 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: linear-gradient(to right, rgba(89, 162, 234, 1), rgba(50, 91, 132, 1))
+    color: black;
+    margin-right: 400px;
+
   }
 }
