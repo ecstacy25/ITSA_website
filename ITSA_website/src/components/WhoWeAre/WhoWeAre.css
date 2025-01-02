@@ -89,12 +89,13 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 100%;
+    width: 74%;
+    margin-left: 200px;
    }
 
    .text-sections {
     margin-left: 100px;
-    width: 57%;
+    width: 67%;
    }
 
    .text-sections h1{
@@ -102,12 +103,12 @@
    }
 
    .image-grid {
-    width: 83%;
-    margin-left: -158px;
+    width: 100%;
+    margin-left: -98px;
    }
 
    .image-grid-item {
-    width: 76%; 
+    width: 90%; 
    
   }
 
@@ -116,10 +117,10 @@
     height: auto;
     border-radius: 5px; 
     object-fit: cover;
-    margin-left: -35px;
+    margin-left: -10px;
   }
 
   .image-grid-item.special-width {
-    width: 173%;
+    width: 205%;
   }
   }

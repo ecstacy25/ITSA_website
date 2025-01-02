@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
-/* body {
-    margin: 0;
-    background: linear-gradient(to right, rgba(242, 245, 248, 1), rgba(255, 255, 255, 1));
-    
-  } */
+
 
   .steps {
     width: 1000%;
@@ -27,7 +23,7 @@
   }
   .steps {
     width: 72%;
-    margin-left: 71px;
+    margin-left: 258px;
     object-fit: cover;
     transform: scaleY(0.7);
     

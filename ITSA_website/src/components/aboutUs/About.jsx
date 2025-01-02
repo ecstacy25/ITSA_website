@@ -1,7 +1,7 @@
 // App.js
 import React from "react";
 import "./about.css";
-import sophosLogo from "../../assets/sophosLogo.png"; // Add your logos to the assets folder
+import sophosLogo from "../../assets/sophosLogo.png"; 
 import microsoftLogo from "../../assets/microsoftLogo.png";
 import dellLogo from "../../assets/dellLogo.png";
 import hpLogo from "../../assets/hpLogo.png";

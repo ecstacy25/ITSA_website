@@ -126,18 +126,39 @@ small a:hover {
 
 @media (max-width: 480px) {
   .foot {
-    width: 60%; 
+    width: 93%; 
+    margin-right: 30px;
   }
 
   .footer-container {
-    padding-left: 35px;
+    width: 70%;
+    margin-left: 0px;
   }
 
   
 
   .logo img {
     width: 100px;
-    margin-left: -70px;
+    margin-left: 40px;
+  }
+
+  .footer-center ul li a,
+  .footer-center h4{
+  margin-left: 136px;
+  }
+
+  .footer-left p,
+  .footer-left small,
+  .footer-left .subscribe {
+    margin-left: 238px;
+    width: 90%;
+  }
+
+  .footer-right p,
+  .footer-right h4,
+  .footer-right .social-icons  {
+    margin-left: 235px;
+    width: 90%;
   }
 
   .footer-center ul li {

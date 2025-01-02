@@ -125,24 +125,27 @@
   .container {
     padding: 20px;
     width: 100%;
+   
   }
 
   .content h1 {
     font-size: 1.2rem;
     width: 68%;
-    margin-left: 83px;
+    
     
   }
 
   .features {
     grid-template-columns: 1fr;
     gap: 10px;
-    width: 63%;
-    margin-left: 105px;
+    width: 100%;
+    margin-left: 300px;
+    
   }
 
   .feature {
     padding: 15px;
+   
   }
 
   .feature h3 {
@@ -154,13 +157,12 @@
   }
 
   .image-container img {
-    max-width: 63%;
-    margin-left: 33px;
+    max-width: 74%;
+    margin-left: -170px;
   }
 
   .itservices {
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
+    
+   flex-wrap: wrap;
   }
 }
